@@ -1,0 +1,68 @@
+body {
+    background: url('image/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #FF5733;
+}
+
+h2 {
+    color: #F33A6A;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #E37383;
+    margin-top: 15px;
+}
+
+p, ul {
+    line-height: 1.6;
+    color: #555;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.hobby-section {
+    margin-bottom: 30px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 45%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.connect {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.connect a {
+    text-decorati
